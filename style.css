@@ -1,0 +1,33 @@
+body {background-color: blue ;}
+
+#foods {border-style: dotted;
+text-align: center;
+border-color: magenta;
+color: aqua;
+background-color: black;
+font-size: 50px;
+padding: 40px;
+font-family: courier;}
+
+#activities {border-style: dotted;
+  text-align: center;
+border-color: magenta;
+color: aqua;
+background-color: black;
+font-size: 50px;
+padding: 40px;
+font-family: courier;}
+
+#colors {border-style: dotted;
+  text-align: center;
+border-color: magenta;
+color: aqua;
+background-color: black;
+font-size: 50px;
+padding: 40px;
+font-family: courier;}
+
+#canvas {
+  border-style: dotted;
+  border-color: magenta;
+}

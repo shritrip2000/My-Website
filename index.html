@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+<body>
+  <p id="foods">
+    <b>Some of my favorite foods are Thai food,
+     Chinese, and any type of baked goods.
+     My favorite dish in Thai food is Panang
+     curry. My favorite dish in Chinese food
+     is spring rolls. I like to eat almost
+     every type of baked good, espcially ones
+     I bake.</b>
+    <br>
+  </p>
+<hr>
+<hr>
+<hr>
+
+  <p id="activities">
+  <b>I have many favorite activities.
+  <b>Some of these activities are baking,
+   reading, playing basketball,
+   painting, roller skating, ice skating,
+    and solving the rubik's cube. This summer
+    I started to bake, paint, roller skate,
+    and solve the rubik's cube.</b>
+  <br>
+</p>
+<hr>
+<hr>
+<hr>
+
+  <p id="colors">
+    <b>My favorite colors are teal and blue.
+    I like these colors because teal is very
+  bright and it adds a burst of color to
+everything. I like blue because it contrasts
+with teal, and because of that they make a great
+color combination.</b>
+    <br>
+  </p>
+  <canvas id="canvas"></canvas>
+
+
+<script>
+
+var canvas = document.getElementById("canvas")
+canvas.height = 200
+canvas.width = 400
+var pen = canvas.getContext("2d")
+pen.fillStyle = "black"
+pen.fillRect(10,50,30,30)
+pen.fillStyle = "red"
+pen.fillRect(150,150,150,150)
+
+</script>
+
+
+</body>
+
+
+</html>
